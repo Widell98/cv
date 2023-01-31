@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/https//widell98.github.io/cv/static/css/main.861d6e50.css",
+    "main.js": "/https//widell98.github.io/cv/static/js/main.80603e0b.js",
+    "static/media/github.png": "/https//widell98.github.io/cv/static/media/github.553c66159c5672f25df6.png",
+    "static/media/twitter.png": "/https//widell98.github.io/cv/static/media/twitter.6a724f9d844faac34031.png",
+    "static/media/linkedin.png": "/https//widell98.github.io/cv/static/media/linkedin.703626263087e3e7c315.png",
+    "static/media/curriculum.png": "/https//widell98.github.io/cv/static/media/curriculum.1711c0d6001e14f7a311.png",
+    "index.html": "/https//widell98.github.io/cv/index.html",
+    "main.861d6e50.css.map": "/https//widell98.github.io/cv/static/css/main.861d6e50.css.map",
+    "main.80603e0b.js.map": "/https//widell98.github.io/cv/static/js/main.80603e0b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.861d6e50.css",
+    "static/js/main.80603e0b.js"
+  ]
+}
