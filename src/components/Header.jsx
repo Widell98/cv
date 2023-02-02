@@ -1,28 +1,27 @@
 import twitter from '../images/twitter.png'
-import logo from '../images/curriculum.png'
 import linkedin from '../images/linkedin.png'
 import github from '../images/github.png'
+import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 function Header() {
+const navigate = useNavigate()
+
     return (
           
         <section class="hero">
-        <nav>
+        {/* <nav>
           <img
             class="logo"
             alt="Erik Widell´s logga"
             src={logo}
           />
-          <ul>
-          
-            <li>About me</li>
+          <ul>         
+             <li>About me</li>
             <li>Projects</li>
-            <li>Contacs</li>
+            <li>contacts</li> 
           </ul>
-          <button class="hamburger" id="hamburger">
-          <i class="fas fa-bars"> </i>  
-          </button>
-        </nav>
+        </nav> */}
         <div class="hero-area">
           <div class="hero-text">
             <h1> Erik Widell</h1>

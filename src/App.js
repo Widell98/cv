@@ -1,55 +1,27 @@
+
+import React, { Component } from 'react';
 import Header from './components/Header'
 import About from './components/About'
-
+import Projects from './components/Projects'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Navbar from './components/Navbar';
 function App() {
+
   return (
     <div className="App">
-      <Header />
-      <About />
-
-      <section class="sub-section-alternative">
-        <h2>Projects</h2>
-        <div class="project-container">
-
-          <div class="project-card">
-            <img class="project-image" src="" alt="Project One Image" />
-            <h3> Project One </h3>
-            <p class="subtext">This is my project and some text about it </p>
-            <hr/>
-            <p class="subtext"><a class="project-link" href="https://github.com/widell98">View Here</a></p>
-          </div>
-
-          <div class="project-card"> 
-          <img class="project-image" src="" alt="Project One Image" />
-            <h3> Project Two </h3>
-            <p class="subtext">This is my project and some text about it </p>
-            <hr/>
-            <p class="subtext"><a class="project-link" href="https://github.com/widell98">View Here</a></p>
-          </div>
-          <div class="project-card">
-          <img class="project-image" src="" alt="Project One Image" />
-            <h3> Project Three </h3>
-            <p class="subtext">This is my project and some text about it </p>
-            <hr/>
-            <p class="subtext"><a class="project-link" href="https://github.com/widell98">View Here</a></p>
-             </div>
-          <div class="project-card">
-          <img class="project-image" src="" alt="Project One Image" />
-            <h3> Project Four </h3>
-            <p class="subtext">This is my project and some text about it </p>
-            <hr/>
-            <p class="subtext"><a class="project-link" href="https://github.com/widell98">View Here</a></p>
-             </div>
-
-        </div>
-      </section>
-      <footer></footer>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route exact path="/cv" element={<Header />} />
+          <Route exact path="/about" element={<About />} />
+          <Route exact path="/projects" element={<Projects />} />
 
 
-      <script src="src/App.js"></script>
-      <div id="root"></div>
+        </Routes>
+      </BrowserRouter>
+
     </div>
-  );
+  )
 }
 
 export default App;

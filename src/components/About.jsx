@@ -10,6 +10,7 @@ function About() {
                 <img class="headshot" src="" />
             </div>
         </section>
+        
 
     );
 }
