@@ -25,12 +25,24 @@ nav {
   justify-content: space-between;
 }
 
-ul {
+/* ul {
+  display: flex;
+  list-style-type: none;
+  width: 500px;
+  justify-content: space-around;x 
+  font-size: 30px;
+} */
+
+.navbar-container{
   display: flex;
   list-style-type: none;
   width: 500px;
   justify-content: space-around;
   font-size: 30px;
+}
+
+.navigate {
+  text-decoration: none;
 }
 
 li {
