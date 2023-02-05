@@ -5,23 +5,10 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
 function Header() {
-const navigate = useNavigate()
 
     return (
           
         <section class="hero">
-        {/* <nav>
-          <img
-            class="logo"
-            alt="Erik Widell´s logga"
-            src={logo}
-          />
-          <ul>         
-             <li>About me</li>
-            <li>Projects</li>
-            <li>contacts</li> 
-          </ul>
-        </nav> */}
         <div class="hero-area">
           <div class="hero-text">
             <h1> Erik Widell</h1>

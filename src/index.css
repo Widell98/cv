@@ -1,3 +1,4 @@
+
 body {
   font-family: 'Poppins', sans-serif;
 }
@@ -25,18 +26,12 @@ nav {
   justify-content: space-between;
 }
 
-/* ul {
-  display: flex;
-  list-style-type: none;
-  width: 500px;
-  justify-content: space-around;x 
-  font-size: 30px;
-} */
 
 .navbar-container{
+  background: #1c1d25;
+  color: white;
   display: flex;
   list-style-type: none;
-  width: 500px;
   justify-content: space-around;
   font-size: 30px;
 }

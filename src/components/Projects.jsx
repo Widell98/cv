@@ -8,9 +8,9 @@ function Projects () {
           <div class="project-card">
             <img class="project-image" src="" alt="Project One Image" />
             <h3> Project One </h3>
-            <p class="subtext">This is my project and some text about it </p>
+            <p class="subtext">This is my project and some text among people </p>
             <hr/>
-            <p class="subtext"><a class="project-link" href="https://github.com/widell98">View Here</a></p>
+            <p class="subtext"><a class="project-link" href="https://github.com/Widell98/amongpeople">View Here</a></p>
           </div>
 
           <div class="project-card"> 
