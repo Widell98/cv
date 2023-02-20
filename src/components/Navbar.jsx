@@ -11,7 +11,7 @@ const Nav = () => {
           class="logo"
           alt="Erik Widell´s logga"
           src={logo}
-          onClick={() => navigate('/cv')}
+          onClick={() => navigate('/')}
           />
         <div type="button" class="navigate" onClick={() => navigate('about')}> About Me </div>
         <div type="button" class="navigate" onClick={() => navigate('projects')}> Projects</div>
