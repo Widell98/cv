@@ -33,7 +33,7 @@ nav {
   display: flex;
   list-style-type: none;
   justify-content: space-around;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .navigate {
@@ -91,18 +91,22 @@ p {
 button:hover {
 background-color: #ef744b
 }
+
 .button:active {
   background-color: #A9A9A9;
   color: #808080;
 }
 
 .socials {
-  padding-bottom: 200px;
+  padding-bottom: 250px;
 }
 
 .logo {
-  height: 80px;
+  height: 65px;
   margin: 10px;
+}
+.image-container{
+  display: flex;
 }
 
 .twitter{

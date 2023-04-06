@@ -5,6 +5,7 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
 function Header() {
+  const navigate = useNavigate()
 
     return (
           
@@ -13,7 +14,7 @@ function Header() {
           <div class="hero-text">
             <h1> Erik Widell</h1>
             <p>Full Stack Developer</p>
-            <div class="button">About me</div>
+            <div onClick={() => navigate('about')} class="button">About me</div>
           </div>
           <div class="socials">
             <div>

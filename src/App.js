@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Navbar />
+          <Navbar/>
         <Routes>
           <Route exact path="/" element={<Header />} />
           <Route exact path="/about" element={<About />} />

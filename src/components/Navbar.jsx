@@ -6,16 +6,19 @@ const Nav = () => {
 
     return (
         <div className="navbar-container"> 
+        <div className="image-container"> 
           <img
           type="button"
-          class="logo"
+          className="logo"
           alt="Erik Widell´s logga"
           src={logo}
           onClick={() => navigate('/')}
           />
+
+        </div>
         <div type="button" class="navigate" onClick={() => navigate('about')}> About Me </div>
         <div type="button" class="navigate" onClick={() => navigate('projects')}> Projects</div>
-        <div type="button" class="navigate" onClick={() => navigate('contacts')}>contacts </div>
+        <div type="button" class="navigate" onClick={() => navigate('contacts')}> Contacts </div>
 
           </div>
       
